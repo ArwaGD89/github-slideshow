@@ -1,0 +1,28 @@
+*{
+	margin:10;
+	padding:10;
+}
+
+#wrap{
+	margin: 10 auto;
+	text-align: center;
+	background-color: purple;
+	color: white;
+	font-size: 50;
+}
+
+image {
+	display:flex;
+	align-items:center;
+	width: 300px;
+	height: 100px;
+	
+}
+
+.button {
+	
+	background-color: #008CBA;
+	color: white;
+	font-size: 24px; 
+}
+

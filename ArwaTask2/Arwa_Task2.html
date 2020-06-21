@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Ropot control interface </title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script language='JavaScript' type='text/JavaScript'>
+<!--
+function move_img(str) {
+
+switch(str){
+case "down":
+document.getElementById('i1').style.top=600 + "px";
+break;
+
+case "up":
+document.getElementById('i1').style.top=100 + "px";
+break;
+
+case "left":
+document.getElementById('i1').style.left=200 + "px";
+break;
+
+case "right":
+document.getElementById('i1').style.left=800 + "px";
+break;
+
+}
+}
+//-->
+</script>
+</head>
+<body>
+    <div id="wrap">
+	      Move The Ropot To Any Direction 	
+	</div>
+<img src=ropot.png id='i1' style="position:absolute; left: 500; top: 100;">
+<br><br><br><br>
+<input type=button onClick=move_img('up') value='Up' style="background-color: #008CBA;
+	color: white; font-size: 24px; ">
+<br>
+<input type=button onClick=move_img('left') value='Left' style="background-color: #008CBA;
+	color: white; font-size: 24px; ">
+<input type=button onClick=move_img('right') value='Right' style="background-color: #008CBA;
+	color: white; font-size: 24px; ">
+<br>
+<input type=button onClick=move_img('down') value='Down' style="background-color: #008CBA;
+	color: white; font-size: 24px; ">
+<br><br>
+
+</body>
+</html>
